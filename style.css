@@ -1,0 +1,33 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    color: aliceblue;
+}
+
+header{
+    height:60vh;
+    background-image: linear-gradient(to right,#4f51cf,#4fa2cf);
+    display:flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    clip-path: polygon(0 0, 100% 0%, 100% 85%, 0% 100%);
+}
+img{
+    height: 300px;
+    border-radius: 100%;
+    position: relative;
+    right:5rem;
+}
+.header-content{
+    display: flex;
+    flex-direction: column;
+    width:33%;
+    gap:1rem;
+}
+h1{
+    font-size: 4rem;
+}
